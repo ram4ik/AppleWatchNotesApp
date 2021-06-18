@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D32DA7D267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1D32DA7C267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D32DA82267D0D7A00AA39B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D32DA81267D0D7A00AA39B1 /* Assets.xcassets */; };
+		1D32DA89267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D32DA88267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D32DA8E267D0D7A00AA39B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32DA8D267D0D7A00AA39B1 /* ContentView.swift */; };
+		1D32DA90267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32DA8F267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift */; };
+		1D32DA92267D0D7A00AA39B1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32DA91267D0D7A00AA39B1 /* ComplicationController.swift */; };
+		1D32DA94267D0D7D00AA39B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */; };
+		1D32DA97267D0D7D00AA39B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D32DA7E267D0D7600AA39B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D32DA72267D0D7500AA39B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D32DA7B267D0D7600AA39B1;
+			remoteInfo = "AppleWatchNotesApp WatchKit App";
+		};
+		1D32DA8A267D0D7A00AA39B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D32DA72267D0D7500AA39B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D32DA87267D0D7A00AA39B1;
+			remoteInfo = "AppleWatchNotesApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D32DA9E267D0D7D00AA39B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D32DA89267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D32DAA2267D0D7D00AA39B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1D32DA7D267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D32DA78267D0D7600AA39B1 /* AppleWatchNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D32DA7C267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchNotesApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D32DA81267D0D7A00AA39B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D32DA83267D0D7A00AA39B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D32DA88267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchNotesApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D32DA8D267D0D7A00AA39B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D32DA8F267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchNotesAppApp.swift; sourceTree = "<group>"; };
+		1D32DA91267D0D7A00AA39B1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D32DA98267D0D7D00AA39B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D32DA85267D0D7A00AA39B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D32DA71267D0D7500AA39B1 = {
+			isa = PBXGroup;
+			children = (
+				1D32DA80267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App */,
+				1D32DA8C267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */,
+				1D32DA79267D0D7600AA39B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D32DA79267D0D7600AA39B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DA78267D0D7600AA39B1 /* AppleWatchNotesApp.app */,
+				1D32DA7C267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app */,
+				1D32DA88267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D32DA80267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DA81267D0D7A00AA39B1 /* Assets.xcassets */,
+				1D32DA83267D0D7A00AA39B1 /* Info.plist */,
+			);
+			path = "AppleWatchNotesApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		1D32DA8C267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DA8D267D0D7A00AA39B1 /* ContentView.swift */,
+				1D32DA8F267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift */,
+				1D32DA91267D0D7A00AA39B1 /* ComplicationController.swift */,
+				1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */,
+				1D32DA98267D0D7D00AA39B1 /* Info.plist */,
+				1D32DA95267D0D7D00AA39B1 /* Preview Content */,
+			);
+			path = "AppleWatchNotesApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D32DA95267D0D7D00AA39B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D32DA77267D0D7600AA39B1 /* AppleWatchNotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D32DAA3267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp" */;
+			buildPhases = (
+				1D32DA76267D0D7600AA39B1 /* Resources */,
+				1D32DAA2267D0D7D00AA39B1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D32DA7F267D0D7600AA39B1 /* PBXTargetDependency */,
+			);
+			name = AppleWatchNotesApp;
+			productName = AppleWatchNotesApp;
+			productReference = 1D32DA78267D0D7600AA39B1 /* AppleWatchNotesApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1D32DA7B267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D32DA9F267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp WatchKit App" */;
+			buildPhases = (
+				1D32DA7A267D0D7600AA39B1 /* Resources */,
+				1D32DA9E267D0D7D00AA39B1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D32DA8B267D0D7A00AA39B1 /* PBXTargetDependency */,
+			);
+			name = "AppleWatchNotesApp WatchKit App";
+			productName = "AppleWatchNotesApp WatchKit App";
+			productReference = 1D32DA7C267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1D32DA87267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D32DA9B267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp WatchKit Extension" */;
+			buildPhases = (
+				1D32DA84267D0D7A00AA39B1 /* Sources */,
+				1D32DA85267D0D7A00AA39B1 /* Frameworks */,
+				1D32DA86267D0D7A00AA39B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchNotesApp WatchKit Extension";
+			productName = "AppleWatchNotesApp WatchKit Extension";
+			productReference = 1D32DA88267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D32DA72267D0D7500AA39B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1D32DA77267D0D7600AA39B1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1D32DA7B267D0D7600AA39B1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1D32DA87267D0D7A00AA39B1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1D32DA75267D0D7600AA39B1 /* Build configuration list for PBXProject "AppleWatchNotesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D32DA71267D0D7500AA39B1;
+			productRefGroup = 1D32DA79267D0D7600AA39B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D32DA77267D0D7600AA39B1 /* AppleWatchNotesApp */,
+				1D32DA7B267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App */,
+				1D32DA87267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D32DA76267D0D7600AA39B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D32DA7A267D0D7600AA39B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D32DA82267D0D7A00AA39B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D32DA86267D0D7A00AA39B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D32DA97267D0D7D00AA39B1 /* Preview Assets.xcassets in Resources */,
+				1D32DA94267D0D7D00AA39B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D32DA84267D0D7A00AA39B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D32DA90267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift in Sources */,
+				1D32DA8E267D0D7A00AA39B1 /* ContentView.swift in Sources */,
+				1D32DA92267D0D7A00AA39B1 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D32DA7F267D0D7600AA39B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D32DA7B267D0D7600AA39B1 /* AppleWatchNotesApp WatchKit App */;
+			targetProxy = 1D32DA7E267D0D7600AA39B1 /* PBXContainerItemProxy */;
+		};
+		1D32DA8B267D0D7A00AA39B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D32DA87267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */;
+			targetProxy = 1D32DA8A267D0D7A00AA39B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D32DA99267D0D7D00AA39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D32DA9A267D0D7D00AA39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D32DA9C267D0D7D00AA39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchNotesApp WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AppleWatchNotesApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1D32DA9D267D0D7D00AA39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchNotesApp WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AppleWatchNotesApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1D32DAA0267D0D7D00AA39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = AppleWatchNotesApp_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchNotesApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1D32DAA1267D0D7D00AA39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = AppleWatchNotesApp_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchNotesApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1D32DAA4267D0D7D00AA39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D32DAA5267D0D7D00AA39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.AppleWatchNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D32DA75267D0D7600AA39B1 /* Build configuration list for PBXProject "AppleWatchNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D32DA99267D0D7D00AA39B1 /* Debug */,
+				1D32DA9A267D0D7D00AA39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D32DA9B267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D32DA9C267D0D7D00AA39B1 /* Debug */,
+				1D32DA9D267D0D7D00AA39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D32DA9F267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D32DAA0267D0D7D00AA39B1 /* Debug */,
+				1D32DAA1267D0D7D00AA39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D32DAA3267D0D7D00AA39B1 /* Build configuration list for PBXNativeTarget "AppleWatchNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D32DAA4267D0D7D00AA39B1 /* Debug */,
+				1D32DAA5267D0D7D00AA39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D32DA72267D0D7500AA39B1 /* Project object */;
+}
