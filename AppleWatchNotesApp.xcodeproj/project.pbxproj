@@ -15,6 +15,7 @@
 		1D32DA92267D0D7A00AA39B1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32DA91267D0D7A00AA39B1 /* ComplicationController.swift */; };
 		1D32DA94267D0D7D00AA39B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */; };
 		1D32DA97267D0D7D00AA39B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */; };
+		1D32DAA9267D0F3500AA39B1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32DAA8267D0F3500AA39B1 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D32DA98267D0D7D00AA39B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D32DAA8267D0F3500AA39B1 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,8 @@
 		1D32DA8C267D0D7A00AA39B1 /* AppleWatchNotesApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1D32DA8D267D0D7A00AA39B1 /* ContentView.swift */,
+				1D32DAA7267D0F2600AA39B1 /* Model */,
+				1D32DAA6267D0F1900AA39B1 /* View */,
 				1D32DA8F267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift */,
 				1D32DA91267D0D7A00AA39B1 /* ComplicationController.swift */,
 				1D32DA93267D0D7D00AA39B1 /* Assets.xcassets */,
@@ -131,6 +134,22 @@
 				1D32DA96267D0D7D00AA39B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D32DAA6267D0F1900AA39B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DA8D267D0D7A00AA39B1 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D32DAA7267D0F2600AA39B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D32DAA8267D0F3500AA39B1 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +281,7 @@
 				1D32DA90267D0D7A00AA39B1 /* AppleWatchNotesAppApp.swift in Sources */,
 				1D32DA8E267D0D7A00AA39B1 /* ContentView.swift in Sources */,
 				1D32DA92267D0D7A00AA39B1 /* ComplicationController.swift in Sources */,
+				1D32DAA9267D0F3500AA39B1 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
